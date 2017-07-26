@@ -6,23 +6,28 @@ body {
 
 h1 {
   text-align: center;
-  font-size: 75px;
+  font-size: 100px;
   font-family: Playfair Display;
-
 }
 
 h2 {
   color: #333333;
   text-align: center;
-  font-size: 40px;
+  font-size: 60px;
   font-family: Playfair Display;
   margin-top: 60px;
-
-
 }
 
 h3 {
   color: #C0B382;
+}
+
+p {
+  font-size: 20px;
+}
+
+p.footer {
+  font-size: 15px;
 }
 
 .image-1 {
@@ -37,11 +42,6 @@ nav {
 
 }
 
-.navbar.navbar-default.navbar-fixed-top.overrides {
-  background-color: #F4F4F4;
-  border: none;
-}
-
 .container {
   color: #C0B382;
   text-shadow:0.25px 0.25px 0.25px black;
@@ -53,7 +53,7 @@ nav {
 
 .image {
   max-width: 200px;
-  margin: 4px;
+  margin: 5px;
 }
 
 .western-pics-column {
@@ -83,7 +83,7 @@ justify-content: center;
 }
 
 .carousel-caption.overrides {
-  bottom: 150px;
+  bottom: 80px;
   color: rgba(243, 243, 243, 100);
 }
 
